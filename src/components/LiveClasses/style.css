@@ -1,0 +1,41 @@
+.live-classes {
+  display: flex;
+  border: 1px #909090 solid;
+  height: 13%;
+  width: 72%;
+  margin: 3% 7%;
+  border-radius: 10px;
+  align-items: center;
+  padding-left: 50px;
+}
+.scale {
+  margin-right: 10%;
+  font-size: 30px;
+  color: #909090;
+}
+.test-container {
+  display: flex;
+  justify-content: center;
+}
+
+.live-container {
+  display: flex;
+  height: 60%;
+  margin-top: 5%;
+  flex-direction: column;
+}
+
+.heading-1 {
+  display: flex;
+  font-size: 40px;
+  color: #909090;
+  margin: 5% 5% 5%;
+}
+
+.heading-2 {
+  display: flex;
+  font-size: 20px;
+  color: #909090;
+  margin: 0 5% 1%;
+  
+}

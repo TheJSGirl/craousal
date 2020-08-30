@@ -17,11 +17,11 @@ export const Videos = () => {
   const handleRightClick = () => {
     setCount(count+1);
     // setX(x - 100)
-    x === -100 * (videos.length - 1) ? setX(0) : setX(x-100);
+    // x === -100 * (videos.length - 1) ? setX(0) : setX(x-100);
   }
   const handleLeftClick = () => {
     // setX(x + 100)
-    x === 0 ? setX(-100 * (videos.length - 1)) : setX(x + 100);
+    // x === 0 ? setX(-100 * (videos.length - 1)) : setX(x + 100);
 
   }
   useEffect(() => {
@@ -50,10 +50,10 @@ export const Videos = () => {
    
       for(let j=0; j<5; j++) {
         if(count>0) {
-        currVideos.push(<iframe src={`https://www.youtube.com/embed/${videos[i].id}`} width="300px" height="200" onFocus="handleFocus"/>)
+        currVideos.push(<iframe src={`https://www.youtube.com/embed/${videos[i].id}`} width="250" height="200" onFocus="handleFocus"/>)
         }
         if(count===0) {
-          currVideos.push(<iframe src={`https://www.youtube.com/embed/${videos[i].id}`} width="300px" height="200" onFocus="handleFocus"/>)
+          currVideos.push(<iframe src={`https://www.youtube.com/embed/${videos[i].id}`} width="250" height="200" onFocus="handleFocus"/>)
           }
     
       }

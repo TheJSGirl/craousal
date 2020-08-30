@@ -17,7 +17,7 @@
   border-radius: 18px;
   border: 1px solid;
   position: absolute;
-  left: 90px;
+  left: 60px;
   bottom: 70px;
   font-size: 28px;
   color: #909090;
@@ -46,5 +46,9 @@
   left: -52px;
 }
 iframe {
-  margin-right: 30px;
+  margin-right: 84px;
+}
+
+iframe:hover {
+  transform: scale(1.5);
 }
